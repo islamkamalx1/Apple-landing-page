@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="imgs/logo.png" alt="Apple logo" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <div class="info">
+                <h2>iphone 13 pro max</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum doloremque ullam placeat eligendi magni alias aliquid delectus architecto sunt cumque!</p>
+                <a href="#">All Products</a>
+            </div>
+            <div class="image">
+            <img id="main-img" src="imgs/0.png" alt="">
+            </div>
+        </main>
+        <div class="icons">
+            <img class="icon-img" onclick="phoneHandler(this.src); colorHandler('#000')" src="imgs/0.png" alt="">
+            <img class="icon-img" onclick="phoneHandler(this.src); colorHandler('#247ec8')" src="imgs/1.png" alt="">
+            <img class="icon-img" onclick="phoneHandler(this.src); colorHandler('#1e1e1e')" src="imgs/2.png" alt="">
+            <img class="icon-img" onclick="phoneHandler(this.src); colorHandler('#c79b53')" src="imgs/3.png" alt="">
+            <img class="icon-img" onclick="phoneHandler(this.src); colorHandler('#c82525')" src="imgs/4.png" alt="">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
